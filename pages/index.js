@@ -8,7 +8,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<div className="container mx-auto px-2">
+			<div className="container mx-auto px-3">
 				<h1 className="text-3xl text-center py-2 font-semibold ">
 					This is Heading
 				</h1>
