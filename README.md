@@ -1,9 +1,41 @@
-# Nextjs + Tailwindcss
+<p align="center">
+  <a href="#">
+    <img src="./public/favicon.ico" alt="logo" width="200">
+  </a>
+</p>
 
--   This is a starter template -> Next.js + Tailwindcss
+<h2 align="center">Nextjs + Tailwindcss + Typescript</h2>
 
-<!--
--   To Install Latest Package version
-    -   `yarn add next@latest react@latest react-dom@latest`
-    -   `yarn add -D tailwindcss@latest postcss@latest autoprefixer@latest`
--->
+<div align="center">
+  <p> Boilerplate Code / Template for quick start </p>
+
+<a href="https://github.com/withrvr/Boilerplate-Nextjs/issues/new?template=bug_report.md">Report Bug</a>
+|
+<a href="https://github.com/withrvr/Boilerplate-Nextjs/issues/new?template=feature_request.md">Request Feature</a>
+|
+<a href="https://github.com/withrvr/Boilerplate-Nextjs/discussions">Discussions</a>
+<br>
+<a href="mailto:contactwithrvr@gmail.com">contactwithrvr@gmail.com</a>
+
+</div>
+
+<br>
+
+# Heading
+
+```
+
+Description
+Description
+Description
+
+```
+
+# Links
+
+-   [Final Result][final-result]
+-   [Technology Used](./Developer_Guide.md#technology)
+
+<!--- ............ declaration of variables ............ -->
+
+[final-result]: #
