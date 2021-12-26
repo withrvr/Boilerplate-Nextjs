@@ -2,7 +2,9 @@ import Layout from "../components/Layout";
 import "../styles/globals.css";
 import NextNProgress from "nextjs-progressbar";
 
-function MyApp({ Component, pageProps }) {
+import { AppProps } from "next/app";
+
+const App = ({ Component, pageProps }: AppProps) => {
 	return (
 		<Layout>
 			<NextNProgress
@@ -12,9 +14,10 @@ function MyApp({ Component, pageProps }) {
 				// height={3}
 				// showOnShallow={true}
 			/>
+
 			<Component {...pageProps} />
 		</Layout>
 	);
-}
+};
 
-export default MyApp;
+export default App;

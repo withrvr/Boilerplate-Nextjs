@@ -1,10 +1,8 @@
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/404.module.css";
 
-
-export default function Error404() {
+const Error404 = () => {
 	return (
 		<>
 			<Head>
@@ -19,16 +17,18 @@ export default function Error404() {
 					width={200}
 					height={200}
 				/>
-				
+
 				<h1 className="text-4xl font-semibold my-3">
 					<div>404</div>
 					<div>Page Not Found</div>
 				</h1>
 
 				<Link href="/">
-					<a className={styles.link}>Go to Home Page</a>
+					<a className="link ">Go to Home Page</a>
 				</Link>
 			</div>
 		</>
 	);
-}
+};
+
+export default Error404;
