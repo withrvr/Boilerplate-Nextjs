@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="#">
+  <a href="https://boilerplate-nextjs-withrvr.vercel.app/">
     <img src="./public/favicon.ico" alt="logo" width="200">
   </a>
 </p>
@@ -38,4 +38,4 @@ Description
 
 <!--- ............ declaration of variables ............ -->
 
-[final-result]: #
+[final-result]: https://boilerplate-nextjs-withrvr.vercel.app/
