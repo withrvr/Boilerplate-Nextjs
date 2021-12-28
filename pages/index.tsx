@@ -1,13 +1,13 @@
 import Head from "next/head";
 
-export default function Home() {
+const Home = () => {
 	return (
 		<>
 			<Head>
 				<title>Home Page</title>
 			</Head>
 
-			<div className="container mx-auto px-3">
+			<div className="container mx-auto px-3 ">
 				<h1 className="text-3xl text-center py-2 font-semibold ">
 					This is Heading
 				</h1>
@@ -44,4 +44,6 @@ export default function Home() {
 			</div>
 		</>
 	);
-}
+};
+
+export default Home;

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Navbar() {
+const Navbar = () => {
 	return (
 		<nav className="bg-sky-500 mb-3">
 			<div className="container flex gap-2 py-2 justify-center">
@@ -23,4 +23,6 @@ export default function Navbar() {
 			</div>
 		</nav>
 	);
-}
+};
+
+export default Navbar;

@@ -1,8 +1,11 @@
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 const Error404 = () => {
+	const router = useRouter();
+
 	return (
 		<>
 			<Head>
@@ -23,8 +26,12 @@ const Error404 = () => {
 					<div>Page Not Found</div>
 				</h1>
 
+				<div className="link" onClick={() => router.back()}>
+					Go back
+				</div>
+
 				<Link href="/">
-					<a className="link ">Go to Home Page</a>
+					<a className="link">Go to Home Page</a>
 				</Link>
 			</div>
 		</>
