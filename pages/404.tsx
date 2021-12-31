@@ -12,22 +12,24 @@ const Error404 = () => {
 				<title>404 - Page Not Found</title>
 			</Head>
 
-			<div className="my-20 text-center">
+			<div className="my-5 md:my-20 text-center">
 				<Image
 					src="/images/are_you_sure_about_that.gif"
 					alt="are_you_sure_about_that john cena image"
 					className="mx-auto "
-					width={200}
-					height={200}
+					width={177}
+					height={197}
 				/>
 
-				<h1 className="text-4xl font-semibold my-3">
-					<div>404</div>
-					<div>Page Not Found</div>
-				</h1>
+				<div className="my-3">
+					<h1 className="text-7xl md:text-8xl font-bold ">404</h1>
+					<h3 className="">Page Not Found</h3>
+				</div>
 
-				<div className="link" onClick={() => router.back()}>
-					Go back
+				<div>
+					<span className="link" onClick={() => router.back()}>
+						Go back
+					</span>
 				</div>
 
 				<Link href="/">
