@@ -14,6 +14,7 @@ $ yarn dev
 
 ## In Use
 
+-   [Nextjs + Tailwindcss + Typescript Template](https://github.com/withrvr/boilerplate-nextjs)
 -   [Next Js](http://reactjs.org/)
 -   [Tailwind Css](https://tailwindcss.com/)
 -   [Typescript](https://www.typescriptlang.org/)

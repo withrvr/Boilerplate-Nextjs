@@ -2,6 +2,8 @@
 	"name": "your-project-name",
 	"version": "0.1.0",
 	"private": true,
+	"discription": "Your Description",
+	"email": "contactwithrvr@gmail.com",
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
@@ -24,5 +26,9 @@
 		"tailwindcss": "^3.0.7",
 		"typescript": "^4.5.4"
 	},
-	"keywords": []
+	"keywords": [
+		"nextjs",
+		"tailwindcss",
+		"typscript"
+	]
 }
