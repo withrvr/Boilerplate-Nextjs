@@ -24,7 +24,7 @@ const App = ({ Component, pageProps }: AppProps) => {
 
 			<Head>
 				<title>Default Title</title>
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/favicon.ico-nextjs.svg" />
 
 				{/* meta tags */}
 				<meta charSet="UTF-8" />

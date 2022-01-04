@@ -8,7 +8,7 @@ const Navbar = () => {
 				<Link href="/">
 					<a className="my-auto">
 						<Image
-							src="/favicon.ico"
+							src="/favicon.ico-nextjs.svg"
 							alt="logo"
 							width={45}
 							height={45}
