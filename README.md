@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://boilerplate-nextjs-withrvr.vercel.app/" target="_blank">
-    <img src="./public/favicon.ico-nextjs.svg" alt="logo" width="200">
+    <img src="./public/logo.svg" alt="logo" width="200">
   </a>
 </p>
 
