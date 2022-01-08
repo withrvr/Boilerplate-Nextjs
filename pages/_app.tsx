@@ -3,8 +3,8 @@ import Head from "next/head";
 
 import NextNProgress from "nextjs-progressbar";
 
-import Tailwindbreakpoints from "@/components/Tailwindbreakpoints";
-import Navbar from "@/components/Navbar";
+import Tailwindbreakpoints from "components/Tailwindbreakpoints";
+import Navbar from "components/Navbar";
 
 import "@/styles/globals.css";
 
@@ -16,8 +16,8 @@ const App = ({ Component, pageProps }: AppProps) => {
 				color="#24292F"
 				startPosition={0.0}
 				stopDelayMs={0}
-				// height={3}
-				// showOnShallow={true}
+				height={2}
+				showOnShallow={true}
 			/>
 
 			{/* <Tailwindbreakpoints /> */}
