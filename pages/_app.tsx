@@ -6,7 +6,7 @@ import NextNProgress from "nextjs-progressbar";
 import Tailwindbreakpoints from "components/Tailwindbreakpoints";
 import Navbar from "components/Navbar";
 
-import "@/styles/globals.css";
+import "styles/globals.css";
 
 const App = ({ Component, pageProps }: AppProps) => {
 	return (
